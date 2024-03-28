@@ -3,29 +3,34 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>Hi! I'm Ken.</h1>
+    <article>
+      <section>
+        <h1>Hi! I'm Ken.</h1>
 
-      <p>
-        With over 25 years of experience as a full-stack developer, I have
-        accumulated a wealth of knowledge working on everything from small
-        websites to large-scale applications. I particularly enjoy creating
-        accessible and responsive websites using CSS and React.js. I am
-        passionate about achieving pixel-perfect designs that look and feel
-        great on all devices.
-      </p>
-      <p>
-        Over the past few years, I have had the privilege of mentoring and
-        guiding other developers in their career journeys. It has been a
-        rewarding experience to witness their growth and development.
-      </p>
+        <p>
+          With over 25 years of experience as a full-stack developer, I have
+          accumulated a wealth of knowledge working on everything from small
+          websites to large-scale applications. I particularly enjoy creating
+          accessible and responsive websites using CSS and React.js. I am
+          passionate about bringing pixel-perfect designs to users that look and
+          feel great on all devices.
+        </p>
+        <p>
+          Over the past few years, I have had the privilege of mentoring and
+          guiding other developers in their career journeys. It has been a
+          rewarding experience to witness their growth and development.
+        </p>
+      </section>
 
       <section>
         <h2>Education</h2>
 
         <p>
-          1999 Bachelor of Science in Computer Science, Weber State University,
-          Utah
+          1999 Bachelor of Science in Computer Science,{" "}
+          <a href="https://www.weber.edu/" target="_blank">
+            Weber State University
+          </a>
+          , Utah
         </p>
       </section>
 
@@ -35,7 +40,7 @@ function App() {
         <div>
           <h3>Willis Towers Watson</h3>
           <h4>Associate Director - IT Systems & Architecture</h4>
-          <em>March 2016 – Current</em>
+          <div className="timespan">March 2016 – Current</div>
           <strong>Skills</strong>
           <ul>
             <li>React.js</li>
@@ -64,7 +69,7 @@ function App() {
         <div>
           <h3>Aviacode</h3>
           <h4>Senior UX Engineer</h4>
-          <em>April 2013 – Feb 2016</em>
+          <div className="timespan">April 2013 – Feb 2016</div>
           <strong>Skills</strong>
           <ul>
             <li>HTML</li>
@@ -91,7 +96,7 @@ function App() {
         <div>
           <h3>GoldStandard / Elsevier</h3>
           <h4>Principal Software Engineer</h4>
-          <em>2006 - April 2013</em>
+          <div className="timespan">2006 - April 2013</div>
           <strong>Skills</strong>
           <ul>
             <li>C++</li>
@@ -129,7 +134,7 @@ function App() {
         <div>
           <h3>Atmedica</h3>
           <h4>Developer Analyst</h4>
-          <em>2002 - 2006</em>
+          <div className="timespan">2002 - 2006</div>
           <strong>Skills</strong>
           <ul>
             <li>HTML</li>
@@ -150,7 +155,7 @@ function App() {
         <div>
           <h3>KnowledgeTrack</h3>
           <h4>Programmer</h4>
-          <em>2000 - 2001</em>
+          <div className="timespan">2000 - 2001</div>
           <strong>Skills</strong>
           <ul>
             <li>HTML</li>
@@ -170,7 +175,7 @@ function App() {
         <div>
           <h3>MarketStar</h3>
           <h4>Systems Analyst II</h4>
-          <em>2000</em>
+          <div className="timespan">2000</div>
           <strong>Skills</strong>
           <ul>
             <li>HTML</li>
@@ -187,7 +192,7 @@ function App() {
         <div>
           <h3>Microsoft / Access Software</h3>
           <h4>Web Design Engineer</h4>
-          <em>1997 - 2000</em>
+          <div className="timespan">1997 - 2000</div>
           <strong>Skills</strong>
           <ul>
             <li>HTML</li>
@@ -206,24 +211,30 @@ function App() {
         <h2>Freelance Work</h2>
 
         <div>
-          <h3>Mall Marketing Media</h3>
+          <h3>
+            <a href="https://www.thecpsgroup.com/" target="_blank">
+              Creative Publishing Solutions
+            </a>
+          </h3>
+          <div className="timespan">2005 - 2015</div>
           <strong>Skills</strong>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>jQuery</li>
             <li>.NET MVC</li>
+            <li>SQL</li>
           </ul>
           <div>
             <p>
               Developed a robust CMS and internal sales website for a company
-              that provided malls all over the country with store posters,
-              banners, and other print displays. The site, written using MVC3
-              and Entity Framework, allowed the company to design and create
-              their print products online in real-time. Their users could then
-              log in, customize and order those products. Afterward they
-              approved further design proofs through a custom workflow system.
-              The site garnered great success for this local company.
+              that provided malls all over the US with store posters, banners,
+              and other print displays. The site, written using MVC3 and Entity
+              Framework, allowed the company to design and create their print
+              products online in real-time. Their users could then log in,
+              customize, and order those products. Afterward the staff approved
+              further design proofs through a custom workflow system. The site
+              garnered great success for this local company.
             </p>
           </div>
         </div>
@@ -231,25 +242,30 @@ function App() {
         <ul>
           <li>
             <a href="https://ustranslation.com/">U.S. Translation Company</a>
+            <div className="timespan">2008 - 2010</div>
           </li>
-          <li>
-            <a href="https://www.getawaytoday.com/">GetAwayToday Travel</a>
-          </li>
-
           <li>
             <a href="https://web.clearplay.com/">ClearPlay</a>
+            <div className="timespan">2007</div>
           </li>
           <li>
             <a href="https://www.dentrix.com/">Dentrix</a>
+            <div className="timespan">2006</div>
           </li>
-          <li>Total Health & Fitness</li>
+          <li>
+            <a href="https://www.getawaytoday.com/">GetAwayToday Travel</a>
+            <div className="timespan">2005 - 2006</div>
+          </li>
+          <li>
+            Total Health & Fitness<div className="timespan">2005</div>
+          </li>
         </ul>
       </section>
 
       <h2>Contact Me</h2>
 
-      <p>You can reach me at ken.james.adams@gmail.com</p>
-    </>
+      <p>You can reach me at <a href="mailto:me@kenjamesadams.com">me@kenjamesadams.com</a></p>
+    </article>
   );
 }
 
