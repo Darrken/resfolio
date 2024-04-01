@@ -8,17 +8,16 @@ function App() {
         <h1>Hi! I'm Ken.</h1>
 
         <p>
-          With over 25 years of experience as a full-stack developer, I have
-          accumulated a wealth of knowledge working on everything from small
-          websites to large-scale applications. I particularly enjoy creating
-          accessible and responsive websites using CSS and React.js. I am
-          passionate about bringing pixel-perfect designs to users that look and
-          feel great on all devices.
+          I'm a full-stack developer with over 25 years of experience. My
+          specialty is creating accessible and responsive websites using CSS and
+          React. I am also comfortable working on any development tier including
+          back-end, database, and deployment pipeline.
         </p>
         <p>
-          Over the past few years, I have had the privilege of mentoring and
-          guiding other developers in their career journeys. It has been a
-          rewarding experience to witness their growth and development.
+          Over the past few years, I've had the privilege of mentoring and
+          guiding other developers in their career journeys as a Tech Lead and
+          Matrix Manager. It has been a rewarding experience to witness their
+          growth and development.
         </p>
       </section>
 
@@ -58,10 +57,10 @@ function App() {
           <div>
             Worked with UX team to create a React.js component library to ensure
             consistency across multiple web applications. This library was
-            across our division by multiple teams, and helped to reduce the time
-            needed to create new MFEs. Served on the Architecture Team to help
-            define best practices and patterns for the development teams to
-            follow. Simultaneously worked as Tech Lead on a development team,
+            utilized across our division by multiple teams and helped to reduce
+            the time needed to create new MFEs. Served on the Architecture Team
+            to help define best practices and patterns for the development teams
+            to follow. Simultaneously worked as Tech Lead on a development team,
             where I helped to mentor and guide the other engineers.
           </div>
         </div>
@@ -80,7 +79,7 @@ function App() {
             <li>Raven DB</li>
           </ul>
           <div>
-            Primarily responsible for selecting, developing, and maintaining the
+            Responsible for selecting, developing, and maintaining the
             technologies used for our front ends. This included Bootstrap and
             FontAwesome libraries, Angular directives, LESS/CSS structure and
             utilization. While my primary role was that of a UX engineer, I also
@@ -223,18 +222,18 @@ function App() {
             <li>CSS</li>
             <li>jQuery</li>
             <li>.NET MVC</li>
+            <li>Entity Framework</li>
             <li>SQL</li>
           </ul>
           <div>
             <p>
               Developed a robust CMS and internal sales website for a company
-              that provided malls all over the US with store posters, banners,
-              and other print displays. The site, written using MVC3 and Entity
-              Framework, allowed the company to design and create their print
-              products online in real-time. Their users could then log in,
-              customize, and order those products. Afterward the staff approved
-              further design proofs through a custom workflow system. The site
-              garnered great success for this local company.
+              that provided posters, banners, and other print displays to malls
+              all over the US. The site allowed the company to design and create
+              their print products online in real-time. Their users could then
+              log in, customize, and order those products. Afterward the staff
+              approved further design proofs through a custom workflow system.
+              The site garnered great success for this local company.
             </p>
           </div>
         </div>
@@ -264,7 +263,11 @@ function App() {
 
       <h2>Contact Me</h2>
 
-      <p>You can reach me at <a href="mailto:me@kenjamesadams.com">me@kenjamesadams.com</a></p>
+      <p>
+        <a href="mailto:me@kenjamesadams.com">me@kenjamesadams.com</a>
+        <br />
+        <a href="https://www.linkedin.com/in/kenjamesadams/">LinkedIn</a>
+      </p>
     </article>
   );
 }
